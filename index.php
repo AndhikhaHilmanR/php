@@ -47,7 +47,7 @@ error_reporting(E_ALL);
         while($d = mysqli_fetch_array($data)){
         ?>
         <tr>
-            <td><?php echo $d['id']; ?></td>
+            <td><?php echo $d['ID']; ?></td>
             <td><?php echo $d['nama']; ?></td>
             <td><?php echo $d['sandi']; ?></td>
             <td>
