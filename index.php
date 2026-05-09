@@ -51,7 +51,7 @@ error_reporting(E_ALL);
             <td><?php echo $d['nama']; ?></td>
             <td><?php echo $d['sandi']; ?></td>
             <td>
-                <a href="index.php?hapus=<?php echo $d['id']; ?>">Hapus</a>
+                <a href="index.php?hapus=<?php echo $d['ID']; ?>">Hapus</a>
             </td>
         </tr>
         <?php } ?>
